@@ -291,8 +291,32 @@
   }
 
   /* --------------------------------------------------------------------------
-     9. INIT
+     9. VIDEO PLAY OVERLAYS (poster + play button, pause others on play)
+     -------------------------------------------------------------------------- */
+  function wireVideos() {
+    var PLAY = '<span class="pbtn"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>';
+    var vids = document.querySelectorAll('.gtile video, .split__media video');
+    vids.forEach(function (v) {
+      var parent = v.parentElement;
+      var inSplit = parent.classList.contains('split__media');
+      var ov = document.createElement('span');
+      ov.className = inSplit ? 'play-ov' : 'gtile__play';
+      ov.innerHTML = PLAY;
+      ov.addEventListener('click', function () {
+        vids.forEach(function (o) { if (o !== v) { o.pause(); } });
+        v.play();
+        ov.style.display = 'none';
+      });
+      v.addEventListener('pause', function () { if (v.currentTime === 0 || v.ended) ov.style.display = ''; });
+      v.addEventListener('ended', function () { ov.style.display = ''; });
+      parent.appendChild(ov);
+    });
+  }
+
+  /* --------------------------------------------------------------------------
+     10. INIT
      -------------------------------------------------------------------------- */
   wireWhatsApp();
+  wireVideos();
 
 })();
