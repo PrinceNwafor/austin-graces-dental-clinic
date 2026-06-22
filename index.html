@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ===================== SEO ===================== -->
+  <title>Dental Clinic in Enugu | Austin Graces Dental Clinic — Braces, Cleaning & Whitening</title>
+  <meta name="description" content="Austin Graces Dental Clinic is a family dental clinic in Enugu offering consultations, teeth cleaning & scaling, whitening, braces/orthodontics, fillings, root canal and implants. Book your appointment on WhatsApp today." />
+  <meta name="keywords" content="dental clinic in Enugu, dentist Enugu, braces Enugu, teeth whitening Enugu, orthodontics Enugu, teeth cleaning Enugu, Austin Graces Dental Clinic" />
+  <meta name="theme-color" content="#1a3d8f" />
+  <link rel="canonical" href="https://example.com/austin-graces-dental-clinic" />
+
+  <!-- Open Graph / social -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Austin Graces Dental Clinic — Family Dental Clinic in Enugu" />
+  <meta property="og:description" content="Brighter, healthier smiles for the whole family in Enugu. Braces, cleaning, whitening & more. Book on WhatsApp." />
+  <meta property="og:image" content="assets/img/clinic-services.webp" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="icon" type="image/png" href="assets/logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- ===================== STRUCTURED DATA (edit address/geo when confirmed) ===================== -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Dentist",
+    "name": "Austin Graces Dental Clinic",
+    "description": "Family dental clinic in Enugu offering consultation, cleaning & scaling, teeth whitening, braces/orthodontics, fillings, root canal therapy, veneers, bridges and implants.",
+    "address": { "@type": "PostalAddress", "addressLocality": "Enugu", "addressRegion": "Enugu State", "addressCountry": "NG" },
+    "telephone": "+2349085005646",
+    "image": "assets/img/clinic-services.webp",
+    "priceRange": "₦₦",
+    "areaServed": "Enugu",
+    "sameAs": ["https://www.instagram.com/austingracesdentalclinic"],
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "08:00", "closes": "18:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "09:00", "closes": "16:00" }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ===================== DEMO PREVIEW RIBBON ===================== -->
+  <div class="ribbon" role="note">
+    <span><strong>Demo preview</strong> — a sample website for Austin Graces Dental Clinic. Yours to customise & own.</span>
+    <button class="ribbon__x" aria-label="Hide notice">✕</button>
+  </div>
+
+  <!-- ===================== NAV ===================== -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#top" class="brand" aria-label="Austin Graces Dental Clinic home">
+        <span class="brand__badge"><img src="assets/logo.png" alt="Austin Graces Dental Clinic logo" /></span>
+        <span class="brand__text">
+          <span class="brand__name">Austin Graces</span>
+          <span class="brand__sub">Dental Clinic · Enugu</span>
+        </span>
+      </a>
+
+      <ul class="nav__links">
+        <li><a href="#services" class="nav__link">Treatments</a></li>
+        <li><a href="#braces" class="nav__link">Braces</a></li>
+        <li><a href="#gallery" class="nav__link">Smile Gallery</a></li>
+        <li><a href="#location" class="nav__link">Location</a></li>
+        <li><a href="#faq" class="nav__link">FAQs</a></li>
+      </ul>
+
+      <div class="nav__actions">
+        <a class="btn btn--whatsapp btn--sm nav__cta-desktop" data-wa="Hello Austin Graces Dental Clinic, I have a question about your dental services in Enugu.">
+          <svg viewBox="0 0 24 24"><path fill="currentColor" d="M17.5 14.4c-.3-.1-1.7-.9-2-1-.3-.1-.5-.1-.6.1l-.9 1.1c-.2.2-.3.2-.6.1-1.1-.5-2-.9-2.9-2.1-.2-.3 0-.4.1-.6l.4-.5c.1-.2.1-.3 0-.5l-.9-2.1c-.2-.5-.4-.4-.6-.5h-.6c-.2 0-.5.1-.8.4-.8.8-1 1.9-1 2.5 0 1.5 1.1 2.9 1.2 3.1.2.2 2.1 3.2 5.1 4.5 3 1.1 3 .8 3.5.7.6-.1 1.7-.7 2-1.4.2-.7.2-1.3.2-1.4-.1-.1-.3-.2-.6-.4z"/><path fill="none" stroke="currentColor" stroke-width="1.6" d="M12 21.5a9.5 9.5 0 1 1 8.2-4.7L21.5 22l-5.3-1.3a9.4 9.4 0 0 1-4.2 1z"/></svg>
+          WhatsApp
+        </a>
+        <a href="#book" class="btn btn--primary btn--sm nav__cta-desktop">Book Appointment</a>
+        <button class="burger" id="burger" aria-label="Open menu"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===================== MOBILE MENU ===================== -->
+  <div class="mobile-nav" id="mobile-nav">
+    <button class="mobile-nav__x" aria-label="Close menu">✕</button>
+    <a href="#services" class="m-link">Treatments</a>
+    <a href="#braces" class="m-link">Braces & Orthodontics</a>
+    <a href="#gallery" class="m-link">Smile Gallery</a>
+    <a href="#location" class="m-link">Location</a>
+    <a href="#faq" class="m-link">FAQs</a>
+    <a href="#book" class="btn btn--accent btn--lg">Book Appointment</a>
+    <a class="btn btn--whatsapp btn--lg" data-wa="Hello Austin Graces Dental Clinic, I'd like to chat about an appointment.">Chat on WhatsApp</a>
+  </div>
+
+  <main id="top">
+
+    <!-- ===================== HERO ===================== -->
+    <section class="hero">
+      <div class="container hero__inner">
+        <div class="reveal">
+          <span class="hero__badge"><span class="dot"></span> Now accepting new patients in Enugu</span>
+          <h1>A Brighter, Healthier <span class="hl">Smile</span> for Your Whole Family in Enugu.</h1>
+          <p class="hero__sub">
+            From routine check-ups and cleaning to braces, whitening and implants — Austin Graces Dental Clinic
+            gives you gentle, modern care with friendly faces. See our treatments and prices, then book in seconds.
+          </p>
+          <div class="hero__cta">
+            <a href="#book" class="btn btn--accent btn--lg">Book Appointment</a>
+            <a class="btn btn--whatsapp btn--lg" data-wa="Hello Austin Graces Dental Clinic, I'd like to book a dental appointment. What times are available?">
+              Chat on WhatsApp
+            </a>
+            <a href="#services" class="btn btn--ghost btn--lg">View Services</a>
+          </div>
+          <div class="hero__trust">
+            <span><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg> Braces & orthodontics</span>
+            <span><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg> Gentle, modern care</span>
+            <span><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg> Flexible payment & HMO</span>
+          </div>
+        </div>
+
+        <div class="hero__visual reveal">
+          <div class="hero__photo">
+            <img src="assets/img/ortho-journey.webp" alt="The Austin Graces Dental Clinic team treating a patient in Enugu" loading="eager" />
+          </div>
+          <div class="hero__chip">
+            <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M9 2C6.5 2 5 4 5 6.5c0 2 .7 3 1.2 5.2.4 1.8.5 3.6 1 5.3.4 1.4.8 3 1.8 3 1.2 0 1-2.2 1.5-3.8.3-1 .6-1.7 1.5-1.7s1.2.7 1.5 1.7c.5 1.6.3 3.8 1.5 3.8 1 0 1.4-1.6 1.8-3 .5-1.7.6-3.5 1-5.3.5-2.2 1.2-3.2 1.2-5.2C20 4 18.5 2 16 2c-1.4 0-2.2.6-3 .9-.6.2-1.4.2-2 0C10.2 2.6 9.4 2 9 2Z"/></svg></span>
+            <div><b>Excellence in Dental Care</b><small>Trusted by families across Enugu</small></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== TRUST STRIP ===================== -->
+    <section class="trust-strip">
+      <div class="container">
+        <div class="trust-strip__grid">
+          <div class="trust-item"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg><div><b>Years of experience</b><span>Caring for Enugu smiles</span></div></div>
+          <div class="trust-item"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M12 2 4 6v6c0 5 8 8 8 8s8-3 8-8V6z"/><path d="M9 12l2 2 4-4"/></svg><div><b>Sterile & modern</b><span>Clean, safe equipment</span></div></div>
+          <div class="trust-item"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><circle cx="9" cy="7" r="3"/><path d="M2 21a7 7 0 0 1 14 0"/><circle cx="17.5" cy="9" r="2.5"/><path d="M16 21a6 6 0 0 1 6-2"/></svg><div><b>Family & kids welcome</b><span>Gentle with little ones</span></div></div>
+          <div class="trust-item"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20"/></svg><div><b>Flexible payment & HMO</b><span>Plans to suit your budget</span></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SERVICES / TREATMENTS ===================== -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="sec-head reveal">
+          <span class="eyebrow">Our Treatments</span>
+          <h2>Complete Dental Care, All in One Place</h2>
+          <p>Whatever your smile needs, our Enugu clinic has you covered — with clear pricing and no pressure. Tap <em>Book</em> or message us on WhatsApp for any treatment.</p>
+        </div>
+
+        <div class="cards reveal">
+
+          <!-- Consultation -->
+          <article class="tcard">
+            <div class="tcard__icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg></div>
+            <h3>Dental Consultation</h3>
+            <p class="tcard__desc">A full check-up and honest advice on your teeth and gums. The best place to start if you're not sure what you need.</p>
+            <div class="tcard__price"><span class="lbl">From</span><span class="val">₦5,000</span></div>
+            <div class="tcard__actions">
+              <a href="#book" class="btn btn--primary btn--sm btn--block" data-book="Dental Consultation">Book</a>
+              <a class="btn btn--whatsapp btn--sm btn--block" data-wa="Hello Austin Graces Dental Clinic, I'd like to book a dental consultation/check-up in Enugu. When are you available?">WhatsApp</a>
+            </div>
+          </article>
+
+          <!-- Cleaning / Scaling -->
+          <article class="tcard">
+            <div class="tcard__icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M3 12h4l2 6 4-12 2 6h6"/></svg></div>
+            <h3>Cleaning, Scaling & Polishing</h3>
+            <p class="tcard__desc">Remove plaque, tartar and stains for fresher breath and healthier gums. Recommended every 6 months.</p>
+            <div class="tcard__price"><span class="lbl">From</span><span class="val">₦15,000</span></div>
+            <div class="tcard__actions">
+              <a href="#book" class="btn btn--primary btn--sm btn--block" data-book="Cleaning & Scaling">Book</a>
+              <a class="btn btn--whatsapp btn--sm btn--block" data-wa="Hello Austin Graces Dental Clinic, I'd like to book a teeth cleaning / scaling & polishing appointment. How much is it and when can I come?">WhatsApp</a>
+            </div>
+          </article>
+
+          <!-- Whitening -->
+          <article class="tcard">
+            <div class="tcard__icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M12 3v3M5 6l2 2M19 6l-2 2M12 9a5 5 0 0 0-5 5c0 3 2 4 2.5 6 .3 1 .8 1 1 0 .3-1.2.5-2 1.5-2s1.2.8 1.5 2c.2 1 .7 1 1 0 .5-2 2.5-3 2.5-6a5 5 0 0 0-5-5Z"/></svg></div>
+            <h3>Teeth Whitening</h3>
+            <p class="tcard__desc">Brighten your smile by several shades with safe, professional whitening — great before weddings and events.</p>
+            <div class="tcard__price"><span class="lbl">From</span><span class="val">₦40,000</span></div>
+            <div class="tcard__actions">
+              <a href="#book" class="btn btn--primary btn--sm btn--block" data-book="Teeth Whitening">Book</a>
+              <a class="btn btn--whatsapp btn--sm btn--block" data-wa="Hello Austin Graces Dental Clinic, I'm interested in professional teeth whitening. Please share the price and available dates.">WhatsApp</a>
+            </div>
+          </article>
+
+          <!-- Braces (feature) -->
+          <article class="tcard tcard--feature">
+            <span class="tcard__tag">Most asked</span>
+            <div class="tcard__icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><rect x="3" y="9" width="18" height="6" rx="2"/><path d="M7 9v6M12 9v6M17 9v6M3 12h18"/></svg></div>
+            <h3>Braces & Orthodontics</h3>
+            <p class="tcard__desc">Straighten crowded, gapped or protruding teeth with metal or ceramic braces. Spread the cost with a payment plan.</p>
+            <div class="tcard__price"><span class="lbl">Payment plans</span><span class="val">Available</span></div>
+            <div class="tcard__actions">
+              <a href="#book" class="btn btn--accent btn--sm btn--block" data-book="Braces / Orthodontics">Book a braces consult</a>
+              <a class="btn btn--whatsapp btn--sm btn--block" data-wa="Hello Austin Graces Dental Clinic, I'd like to know about braces/orthodontics — the cost, payment plan options and how long treatment takes.">WhatsApp</a>
+            </div>
+          </article>
+
+          <!-- Filling -->
+          <article class="tcard">
+            <div class="tcard__icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M9 2C6.5 2 5 4 5 6.5c0 2 .7 3 1.2 5.2.4 1.8.5 3.6 1 5.3.4 1.4.8 3 1.8 3 1.2 0 1-2.2 1.5-3.8.3-1 .6-1.7 1.5-1.7s1.2.7 1.5 1.7c.5 1.6.3 3.8 1.5 3.8 1 0 1.4-1.6 1.8-3 .5-1.7.6-3.5 1-5.3.5-2.2 1.2-3.2 1.2-5.2C20 4 18.5 2 16 2c-1.4 0-2.2.6-3 .9-.6.2-1.4.2-2 0C10.2 2.6 9.4 2 9 2Z"/></svg></div>
+            <h3>Tooth Filling (Composite)</h3>
+            <p class="tcard__desc">Repair cavities and chips with tooth-coloured composite that blends in naturally — no metallic look.</p>
+            <div class="tcard__price"><span class="lbl">From</span><span class="val">₦10,000</span></div>
+            <div class="tcard__actions">
+              <a href="#book" class="btn btn--primary btn--sm btn--block" data-book="Tooth Filling">Book</a>
+              <a class="btn btn--whatsapp btn--sm btn--block" data-wa="Hello Austin Graces Dental Clinic, I think I need a tooth filling. Please tell me the cost and how to book.">WhatsApp</a>
+            </div>
+          </article>
+
+          <!-- Root canal -->
+          <article class="tcard">
+            <div class="tcard__icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M9 2C6.5 2 5 4 5 6.5c0 2 .7 3 1.2 5.2.4 1.8.5 3.6 1 5.3.4 1.4.8 3 1.8 3 1.2 0 1-2.2 1.5-3.8.3-1 .6-1.7 1.5-1.7"/><path d="M12 11v9"/></svg></div>
+            <h3>Root Canal Therapy</h3>
+            <p class="tcard__desc">Save a badly decayed or painful tooth instead of removing it. Done gently, with proper numbing.</p>
+            <div class="tcard__price"><span class="lbl">From</span><span class="val">₦35,000</span></div>
+            <div class="tcard__actions">
+              <a href="#book" class="btn btn--primary btn--sm btn--block" data-book="Root Canal">Book</a>
+              <a class="btn btn--whatsapp btn--sm btn--block" data-wa="Hello Austin Graces Dental Clinic, I have a painful tooth and may need a root canal. Can I book a consultation?">WhatsApp</a>
+            </div>
+          </article>
+
+          <!-- Implants -->
+          <article class="tcard">
+            <div class="tcard__icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M12 3c2 0 3 1.5 3 3 0 1.5-1 2.5-1.3 4H10.3C10 8.5 9 7.5 9 6c0-1.5 1-3 3-3Z"/><path d="M10.5 10h3l-.5 4M12 14l-.5 6M12 14l.8 6"/></svg></div>
+            <h3>Dental Implants</h3>
+            <p class="tcard__desc">Replace a missing tooth with a strong, natural-looking implant that lets you chew and smile with confidence.</p>
+            <div class="tcard__price"><span class="lbl">Price</span><span class="val">On consultation</span></div>
+            <div class="tcard__actions">
+              <a href="#book" class="btn btn--primary btn--sm btn--block" data-book="Dental Implants">Book</a>
+              <a class="btn btn--whatsapp btn--sm btn--block" data-wa="Hello Austin Graces Dental Clinic, I'm interested in dental implants to replace a missing tooth. Please advise on cost and next steps.">WhatsApp</a>
+            </div>
+          </article>
+
+          <!-- Veneers & bridges -->
+          <article class="tcard">
+            <div class="tcard__icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><rect x="4" y="6" width="16" height="12" rx="2"/><path d="M9 6v12M15 6v12"/></svg></div>
+            <h3>Veneers & Bridges</h3>
+            <p class="tcard__desc">Reshape, close gaps or replace missing teeth for a fuller, more even smile that looks completely natural.</p>
+            <div class="tcard__price"><span class="lbl">Price</span><span class="val">On consultation</span></div>
+            <div class="tcard__actions">
+              <a href="#book" class="btn btn--primary btn--sm btn--block" data-book="Veneers & Bridges">Book</a>
+              <a class="btn btn--whatsapp btn--sm btn--block" data-wa="Hello Austin Graces Dental Clinic, I'd like to know about veneers / bridges for my smile. Please share details.">WhatsApp</a>
+            </div>
+          </article>
+
+          <!-- Extraction -->
+          <article class="tcard">
+            <div class="tcard__icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M9 2C6.5 2 5 4 5 6.5c0 2 .7 3 1.2 5.2.4 1.8.5 3.6 1 5.3.4 1.4.8 3 1.8 3 1.2 0 1-2.2 1.5-3.8.3-1 .6-1.7 1.5-1.7s1.2.7 1.5 1.7c.5 1.6.3 3.8 1.5 3.8"/><path d="M17 17l4 4M21 17l-4 4"/></svg></div>
+            <h3>Tooth Extraction</h3>
+            <p class="tcard__desc">Safe, comfortable removal of a damaged or troublesome tooth, including wisdom teeth, with clear aftercare.</p>
+            <div class="tcard__price"><span class="lbl">From</span><span class="val">₦8,000</span></div>
+            <div class="tcard__actions">
+              <a href="#book" class="btn btn--primary btn--sm btn--block" data-book="Tooth Extraction">Book</a>
+              <a class="btn btn--whatsapp btn--sm btn--block" data-wa="Hello Austin Graces Dental Clinic, I may need a tooth extraction. Please tell me the cost and how soon I can be seen.">WhatsApp</a>
+            </div>
+          </article>
+
+        </div>
+
+        <p class="gallery-note reveal">Prices shown are sample ranges for this preview — confirm current pricing and HMO cover on WhatsApp.</p>
+      </div>
+    </section>
+
+    <!-- ===================== BRACES / ORTHODONTICS BAND ===================== -->
+    <section class="section section--warm" id="braces">
+      <div class="container">
+        <div class="split split--reverse">
+          <div class="split__media reveal">
+            <video src="assets/video/braces-treatment.mp4" poster="assets/video/poster/braces-treatment.jpg" controls preload="none" playsinline></video>
+          </div>
+          <div class="reveal">
+            <span class="eyebrow">Braces & Orthodontics</span>
+            <h2>Straighter Teeth, on a Plan That Fits Your Budget</h2>
+            <p>Crowded, gapped or protruding teeth? Braces gently move your teeth into a healthier, more confident smile.
+              We start with a simple consultation, explain your options in plain language, and let you spread the cost.</p>
+            <ul class="ticks">
+              <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg> Metal & ceramic braces for adults and teens</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg> Flexible monthly payment plans</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg> Clear timeline and friendly check-ins</li>
+            </ul>
+            <div class="split__actions">
+              <a href="#book" class="btn btn--accent" data-book="Braces / Orthodontics">Book a braces consult</a>
+              <a class="btn btn--whatsapp" data-wa="Hello Austin Graces Dental Clinic, I'd like to start braces. Please explain the payment plan and book me for a consultation.">Ask about payment plans</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== PAYMENT & HMO ===================== -->
+    <section class="section" id="payments">
+      <div class="container">
+        <div class="sec-head reveal">
+          <span class="eyebrow">Payment & HMO</span>
+          <h2>Care That Works With Your Budget</h2>
+          <p>Good dental care shouldn't be out of reach. We keep things flexible so you can get the treatment you need.</p>
+        </div>
+        <div class="pay-grid reveal">
+          <div class="pay-card">
+            <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20"/></svg></div>
+            <h4>Flexible payments</h4>
+            <p>Pay in instalments for braces and larger treatments — ask us for a plan that suits you.</p>
+          </div>
+          <div class="pay-card">
+            <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M12 2 4 5v6c0 5 8 11 8 11s8-6 8-11V5z"/><path d="M9 12l2 2 4-4"/></svg></div>
+            <h4>HMO accepted</h4>
+            <p>We work with selected health plans. Send your HMO details on WhatsApp and we'll confirm your cover.</p>
+          </div>
+          <div class="pay-card">
+            <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div>
+            <h4>Clear, upfront pricing</h4>
+            <p>You'll always know the cost before we begin — no surprises, no hidden charges.</p>
+          </div>
+        </div>
+        <div class="center reveal" style="margin-top:var(--s-8);">
+          <a class="btn btn--whatsapp btn--lg" data-wa="Hello Austin Graces Dental Clinic, please tell me about your payment plans and which HMOs you accept.">Ask about payment & HMO on WhatsApp</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CREDIBILITY / ABOUT ===================== -->
+    <section class="section section--warm">
+      <div class="container">
+        <div class="split">
+          <div class="split__media reveal">
+            <img src="assets/img/clinic-services.webp" alt="Austin Graces Dental Clinic services and dental chair in Enugu" loading="lazy" />
+          </div>
+          <div class="reveal">
+            <span class="eyebrow">Why Austin Graces</span>
+            <h2>Friendly Faces, Serious About Your Smile</h2>
+            <p>Austin Graces Dental Clinic is a family-friendly dental practice right here in Enugu. We combine modern
+              equipment with a warm, patient approach — so whether it's your child's first visit or your own long-overdue
+              check-up, you'll feel relaxed and well looked after.</p>
+            <div class="stats" style="margin-top:var(--s-6);">
+              <div class="stat"><div class="stat__n" style="color:var(--c-navy)" data-count="10" data-suffix="+">10+</div><div class="stat__lbl" style="color:var(--c-muted)">Years of care</div></div>
+              <div class="stat"><div class="stat__n" style="color:var(--c-navy)" data-count="5000" data-suffix="+">5000+</div><div class="stat__lbl" style="color:var(--c-muted)">Smiles treated</div></div>
+              <div class="stat"><div class="stat__n" style="color:var(--c-navy)" data-count="9" data-suffix="">9</div><div class="stat__lbl" style="color:var(--c-muted)">Treatments offered</div></div>
+              <div class="stat"><div class="stat__n" style="color:var(--c-navy)" data-count="100" data-suffix="%">100%</div><div class="stat__lbl" style="color:var(--c-muted)">Focus on comfort</div></div>
+            </div>
+            <p style="font-size:.78rem;color:var(--c-muted);margin-top:var(--s-4)">Figures are placeholders for this preview — we'll update them with your real numbers.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SMILE GALLERY ===================== -->
+    <section class="section" id="gallery">
+      <div class="container">
+        <div class="sec-head reveal">
+          <span class="eyebrow">Smile Gallery</span>
+          <h2>Real Care, Real Results</h2>
+          <p>A peek inside the clinic and some of the smiles we've helped transform. Tap a video to play.</p>
+        </div>
+
+        <div class="gallery reveal">
+          <div class="gtile gtile--wide">
+            <video src="assets/video/services-overview.mp4" poster="assets/video/poster/services-overview.jpg" controls preload="none" playsinline></video>
+            <span class="gtile__cap">Our dental services</span>
+          </div>
+          <div class="gtile"><img src="assets/img/smile-result-1.webp" alt="Orthodontic treatment progress at Austin Graces Dental Clinic" loading="lazy" /><span class="gtile__cap">Braces journey</span></div>
+          <div class="gtile"><img src="assets/img/smile-result-2.webp" alt="Braces treatment result" loading="lazy" /><span class="gtile__cap">Braces journey</span></div>
+          <div class="gtile"><img src="assets/img/smile-result-3.webp" alt="Final braces removal — a straighter smile" loading="lazy" /><span class="gtile__cap">After braces</span></div>
+          <div class="gtile"><video src="assets/video/scaling-polishing.mp4" poster="assets/video/poster/scaling-polishing.jpg" controls preload="none" playsinline></video><span class="gtile__cap">Scaling & polishing</span></div>
+          <div class="gtile"><video src="assets/video/braces-treatment.mp4" poster="assets/video/poster/braces-treatment.jpg" controls preload="none" playsinline></video><span class="gtile__cap">Orthodontics</span></div>
+          <div class="gtile"><img src="assets/img/dental-care.webp" alt="Why dental care matters — Austin Graces Dental Clinic" loading="lazy" /><span class="gtile__cap">Why dental care</span></div>
+          <div class="gtile"><video src="assets/video/patient-care.mp4" poster="assets/video/poster/patient-care.jpg" controls preload="none" playsinline></video><span class="gtile__cap">Patient care</span></div>
+          <div class="gtile gtile--wide"><video src="assets/video/clinic-team.mp4" poster="assets/video/poster/clinic-team.jpg" controls preload="none" playsinline></video><span class="gtile__cap">Meet the team</span></div>
+        </div>
+        <p class="gallery-note reveal">Photos & videos are from the clinic. Swap or add more anytime — they're easy to update.</p>
+      </div>
+    </section>
+
+    <!-- ===================== BOOKING + WHATSAPP ===================== -->
+    <section class="section section--warm" id="book">
+      <div class="container">
+        <div class="sec-head reveal">
+          <span class="eyebrow">Book an Appointment</span>
+          <h2>Reserve Your Visit in Under a Minute</h2>
+          <p>Pick your treatment, choose a time, add your details — then send it straight to us on WhatsApp. No DM back-and-forth.</p>
+        </div>
+
+        <div class="booking-layout">
+          <!-- WIDGET -->
+          <div class="booking reveal">
+            <div class="booking__steps">
+              <div class="bstep bstep--active"><div class="bstep__n">1</div><div class="bstep__lbl">Treatment</div></div>
+              <div class="bstep"><div class="bstep__n">2</div><div class="bstep__lbl">Date &amp; Time</div></div>
+              <div class="bstep"><div class="bstep__n">3</div><div class="bstep__lbl">Your Details</div></div>
+              <div class="bstep"><div class="bstep__n">4</div><div class="bstep__lbl">Confirm</div></div>
+            </div>
+
+            <div class="booking__body">
+              <!-- STEP 1 -->
+              <div class="bpanel bpanel--active">
+                <h3>What do you need?</h3>
+                <p class="bpanel__desc">Choose the treatment you'd like to book.</p>
+                <div class="opt-grid">
+                  <button type="button" class="opt" data-group="service" data-value="Dental Consultation"><span class="opt__ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg></span><span><b>Dental Consultation</b><small>Check-up & advice</small></span></button>
+                  <button type="button" class="opt" data-group="service" data-value="Cleaning & Scaling"><span class="opt__ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M3 12h4l2 6 4-12 2 6h6"/></svg></span><span><b>Cleaning & Scaling</b><small>Plaque & stain removal</small></span></button>
+                  <button type="button" class="opt" data-group="service" data-value="Teeth Whitening"><span class="opt__ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M12 9a5 5 0 0 0-5 5c0 3 2 4 2.5 6 .3 1 .8 1 1 0 .3-1.2.5-2 1.5-2s1.2.8 1.5 2c.2 1 .7 1 1 0 .5-2 2.5-3 2.5-6a5 5 0 0 0-5-5Z"/></svg></span><span><b>Teeth Whitening</b><small>Brighter smile</small></span></button>
+                  <button type="button" class="opt" data-group="service" data-value="Braces / Orthodontics"><span class="opt__ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><rect x="3" y="9" width="18" height="6" rx="2"/><path d="M7 9v6M12 9v6M17 9v6"/></svg></span><span><b>Braces / Orthodontics</b><small>Straighten teeth</small></span></button>
+                  <button type="button" class="opt" data-group="service" data-value="Tooth Filling"><span class="opt__ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M9 2C6.5 2 5 4 5 6.5c0 4 1.5 6 2 9.5.3 2 .6 3 1.5 3s.9-1.3 1.5-3c.6 1.7.6 3 1.5 3s1.2-1 1.5-3c.5-3.5 2-5.5 2-9.5C16 4 14.5 2 12 2Z"/></svg></span><span><b>Tooth Filling</b><small>Repair a cavity</small></span></button>
+                  <button type="button" class="opt" data-group="service" data-value="Root Canal"><span class="opt__ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M9 2C6.5 2 5 4 5 6.5c0 4 1.5 6 2 9.5.3 2 .6 3 1.5 3"/><path d="M12 10v10"/></svg></span><span><b>Root Canal</b><small>Save a painful tooth</small></span></button>
+                  <button type="button" class="opt" data-group="service" data-value="Dental Implants"><span class="opt__ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M12 3c2 0 3 1.5 3 3 0 1.5-1 2.5-1.3 4H10.3C10 8.5 9 7.5 9 6c0-1.5 1-3 3-3Z"/><path d="M11 14l-.5 6M13 14l.5 6"/></svg></span><span><b>Dental Implants</b><small>Replace a tooth</small></span></button>
+                  <button type="button" class="opt" data-group="service" data-value="Veneers & Bridges"><span class="opt__ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><rect x="4" y="6" width="16" height="12" rx="2"/><path d="M9 6v12M15 6v12"/></svg></span><span><b>Veneers & Bridges</b><small>Reshape your smile</small></span></button>
+                  <button type="button" class="opt" data-group="service" data-value="Tooth Extraction"><span class="opt__ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M9 2C6.5 2 5 4 5 6.5c0 4 1.5 6 2 9.5.3 2 .6 3 1.5 3s.9-1.3 1.5-3c.6 1.7.6 3 1.5 3"/><path d="M17 17l4 4M21 17l-4 4"/></svg></span><span><b>Tooth Extraction</b><small>Remove a tooth</small></span></button>
+                  <button type="button" class="opt" data-group="service" data-value="Other / Not sure"><span class="opt__ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><path d="M9.5 9a2.5 2.5 0 0 1 5 .5c0 1.7-2.5 2-2.5 3.5M12 17h.01"/></svg></span><span><b>Other / Not sure</b><small>We'll guide you</small></span></button>
+                </div>
+                <div class="booking__nav">
+                  <a class="btn btn--outline" data-wa="Hello Austin Graces Dental Clinic, I'd like help choosing the right treatment.">Ask us instead</a>
+                  <button type="button" class="btn btn--primary" data-next>Continue →</button>
+                </div>
+              </div>
+
+              <!-- STEP 2 -->
+              <div class="bpanel">
+                <h3>Pick a date & time</h3>
+                <p class="bpanel__desc">Choose a day, then a time that works for you.</p>
+                <label class="field" style="display:block"><span style="font-size:.82rem;font-weight:600">Available dates</span></label>
+                <div class="date-row"><!-- dates injected by JS --></div>
+                <div data-time-wrap style="display:none;">
+                  <label style="display:block;font-size:.82rem;font-weight:600;margin-bottom:.4rem">Available times</label>
+                  <div class="time-grid">
+                    <button type="button" class="time-slot">9:00 AM</button>
+                    <button type="button" class="time-slot">9:45 AM</button>
+                    <button type="button" class="time-slot time-slot--off">10:30 AM</button>
+                    <button type="button" class="time-slot">11:15 AM</button>
+                    <button type="button" class="time-slot">12:00 PM</button>
+                    <button type="button" class="time-slot time-slot--off">1:00 PM</button>
+                    <button type="button" class="time-slot">2:00 PM</button>
+                    <button type="button" class="time-slot">2:45 PM</button>
+                    <button type="button" class="time-slot">3:30 PM</button>
+                    <button type="button" class="time-slot">4:15 PM</button>
+                    <button type="button" class="time-slot">5:00 PM</button>
+                    <button type="button" class="time-slot">5:45 PM</button>
+                  </div>
+                </div>
+                <div class="booking__nav">
+                  <button type="button" class="btn btn--outline" data-prev>← Back</button>
+                  <button type="button" class="btn btn--primary" data-next>Continue →</button>
+                </div>
+              </div>
+
+              <!-- STEP 3 -->
+              <div class="bpanel">
+                <h3>Your details</h3>
+                <p class="bpanel__desc">So we can confirm your appointment with you.</p>
+                <div class="field"><label for="bk-name">Full name *</label><input type="text" id="bk-name" placeholder="e.g. Chidinma Okeke" /></div>
+                <div class="field"><label for="bk-phone">Phone / WhatsApp number *</label><input type="tel" id="bk-phone" placeholder="e.g. 0803 000 0000" /></div>
+                <div class="field">
+                  <label>Have you visited us before? *</label>
+                  <div class="radio-row">
+                    <label><input type="radio" name="bk-patient" value="New patient" /> New patient</label>
+                    <label><input type="radio" name="bk-patient" value="Returning patient" /> Returning patient</label>
+                  </div>
+                </div>
+                <div class="field"><label for="bk-notes">Anything we should know? (optional)</label><textarea id="bk-notes" placeholder="e.g. I have a toothache on the lower left, or I'd like braces info"></textarea></div>
+                <div class="booking__nav">
+                  <button type="button" class="btn btn--outline" data-prev>← Back</button>
+                  <button type="button" class="btn btn--primary" data-next>Review →</button>
+                </div>
+              </div>
+
+              <!-- STEP 4 -->
+              <div class="bpanel">
+                <h3>Confirm your booking</h3>
+                <p class="bpanel__desc">Check the details, then send to us on WhatsApp.</p>
+                <div class="summary">
+                  <div class="summary__row"><span>Treatment</span><span data-s-service>—</span></div>
+                  <div class="summary__row"><span>Date</span><span data-s-date>—</span></div>
+                  <div class="summary__row"><span>Time</span><span data-s-time>—</span></div>
+                  <div class="summary__row"><span>Name</span><span data-s-name>—</span></div>
+                  <div class="summary__row"><span>Phone</span><span data-s-phone>—</span></div>
+                  <div class="summary__row"><span>Patient</span><span data-s-patient>—</span></div>
+                </div>
+                <div class="booking__nav">
+                  <button type="button" class="btn btn--outline" data-prev>← Back</button>
+                  <button type="button" class="btn btn--accent btn--lg" data-confirm>Confirm →</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- SUCCESS -->
+            <div class="booking__success">
+              <div class="ok"><svg viewBox="0 0 24 24" fill="none"><path d="M20 6 9 17l-5-5"/></svg></div>
+              <h3 style="margin-bottom:.5rem">Almost done! 🎉</h3>
+              <p style="max-width:420px;margin:0 auto var(--s-5);color:var(--c-text-soft)">
+                Tap the button below to send your appointment details to us on WhatsApp. We'll reply to confirm your slot.
+              </p>
+              <div class="summary" style="max-width:420px;margin:0 auto var(--s-5);text-align:left">
+                <div class="summary__row"><span>Treatment</span><span data-s-service>—</span></div>
+                <div class="summary__row"><span>Date</span><span data-s-date>—</span></div>
+                <div class="summary__row"><span>Time</span><span data-s-time>—</span></div>
+              </div>
+              <a class="btn btn--whatsapp btn--lg" data-wa-send style="margin-bottom:.6rem">Send my booking on WhatsApp</a>
+              <div><a data-tel class="btn btn--outline btn--sm">Or call 0908 500 5646</a></div>
+            </div>
+          </div>
+
+          <!-- ASIDE -->
+          <aside class="booking-aside reveal">
+            <div class="ba-card">
+              <h3>Prefer to chat?</h3>
+              <p>Message us directly and we'll help you book the right appointment.</p>
+              <a class="btn btn--whatsapp btn--block" data-wa="Hello Austin Graces Dental Clinic, I'd like to book a dental appointment.">Chat on WhatsApp</a>
+              <div class="or">— OR —</div>
+              <a data-tel class="btn btn--white btn--block">Call 0908 500 5646</a>
+            </div>
+            <div class="ba-list">
+              <div class="it"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span><b>Fast replies</b>We answer WhatsApp during clinic hours.</span></div>
+              <div class="it"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M12 2 4 5v6c0 5 8 11 8 11s8-6 8-11V5z"/></svg><span><b>No pressure</b>Ask questions before you decide anything.</span></div>
+              <div class="it"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M3 12h4l2 6 4-12 2 6h6"/></svg><span><b>Gentle care</b>We make sure you're comfortable throughout.</span></div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== TESTIMONIALS ===================== -->
+    <section class="section">
+      <div class="container">
+        <div class="sec-head reveal">
+          <span class="eyebrow">Patient Reviews</span>
+          <h2>Loved by Patients in Enugu</h2>
+          <p>A few words from people who trusted us with their smiles. (Sample reviews — replace with your real ones.)</p>
+        </div>
+        <div class="reviews reveal">
+          <div class="review">
+            <div class="review__stars">★★★★★</div>
+            <p class="review__text">"I was scared of the dentist but the team here made me very comfortable. My scaling was painless and my mouth feels so fresh. I'll be coming back."</p>
+            <div class="review__who"><div class="review__av">N</div><div><div class="review__name">Ngozi A.</div><div class="review__role">Cleaning & scaling</div></div></div>
+          </div>
+          <div class="review">
+            <div class="review__stars">★★★★★</div>
+            <p class="review__text">"I did my braces here and the payment plan made it easy. Two years later my teeth are perfectly aligned. Thank you Austin Graces!"</p>
+            <div class="review__who"><div class="review__av">E</div><div><div class="review__name">Emeka O.</div><div class="review__role">Braces / Orthodontics</div></div></div>
+          </div>
+          <div class="review">
+            <div class="review__stars">★★★★★</div>
+            <p class="review__text">"Booked on WhatsApp in the morning and was seen the same day for a bad toothache. Very professional and the place is clean. Highly recommend."</p>
+            <div class="review__who"><div class="review__av">C</div><div><div class="review__name">Chioma U.</div><div class="review__role">Root canal patient</div></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== LOCATION / MAP ===================== -->
+    <section class="section section--warm" id="location">
+      <div class="container">
+        <div class="sec-head reveal">
+          <span class="eyebrow">Find Us</span>
+          <h2>Visit Our Clinic in Enugu</h2>
+          <p>We're easy to reach. Get directions, then book ahead so we're ready for you.</p>
+        </div>
+        <div class="map-wrap">
+          <div class="map-frame reveal">
+            <iframe title="Map showing Austin Graces Dental Clinic, Enugu"
+              src="https://www.google.com/maps?q=Austin%20Graces%20Dental%20Clinic%2C%20Enugu&output=embed"
+              loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+          </div>
+          <div class="contact-card reveal">
+            <div class="contact-row"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M12 22s8-7 8-12a8 8 0 1 0-16 0c0 5 8 12 8 12Z"/><circle cx="12" cy="10" r="3"/></svg><div><b>Address</b><span>Enugu, Nigeria <em>(exact street address to be added)</em></span></div></div>
+            <div class="contact-row"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2 4.2 2 2 0 0 1 4 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7A2 2 0 0 1 22 16.9Z"/></svg><div><b>Phone</b><a data-tel>0908 500 5646</a></div></div>
+            <div class="contact-row"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M20.5 13.3A8.5 8.5 0 1 1 10.7 3.5"/><path d="M16 2v5h5"/></svg><div><b>WhatsApp</b><a data-wa="Hello Austin Graces Dental Clinic, I'd like to book an appointment.">Chat with us — 0908 500 5646</a></div></div>
+            <div class="contact-row"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg><div><b>Instagram</b><a href="https://www.instagram.com/austingracesdentalclinic" target="_blank" rel="noopener">@austingracesdentalclinic</a></div></div>
+            <div class="hours-mini">
+              <div class="hr"><span>Monday – Friday</span><span>8:00am – 6:00pm</span></div>
+              <div class="hr"><span>Saturday</span><span>9:00am – 4:00pm</span></div>
+              <div class="hr"><span>Sunday</span><span>Closed</span></div>
+            </div>
+            <a href="https://www.google.com/maps/search/Austin+Graces+Dental+Clinic+Enugu" target="_blank" rel="noopener" class="btn btn--outline btn--block" style="margin-top:var(--s-4)">Get Directions →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== FAQ ===================== -->
+    <section class="section" id="faq">
+      <div class="container">
+        <div class="sec-head reveal">
+          <span class="eyebrow">FAQs</span>
+          <h2>Questions Patients Often Ask</h2>
+          <p>Can't find your answer? Just send us a message on WhatsApp.</p>
+        </div>
+        <div class="faq reveal">
+          <div class="acc"><button class="acc__btn">How much is a consultation or treatment?</button><div class="acc__panel"><div class="acc__panel-in">Our prices depend on the treatment. A consultation starts from around ₦5,000, cleaning from ₦15,000, and whitening from ₦40,000. Braces and implants are priced after a consultation. The figures on this page are sample ranges for the preview — message us on WhatsApp for current pricing.</div></div></div>
+          <div class="acc"><button class="acc__btn">Do you offer payment plans for braces?</button><div class="acc__panel"><div class="acc__panel-in">Yes. Braces and other larger treatments can be spread over monthly payments so the cost is easier to manage. Ask us on WhatsApp and we'll explain a plan that suits your budget.</div></div></div>
+          <div class="acc"><button class="acc__btn">Do you accept HMOs?</button><div class="acc__panel"><div class="acc__panel-in">We work with selected HMOs and health plans. Send us your HMO name on WhatsApp and we'll confirm whether your cover applies before your visit.</div></div></div>
+          <div class="acc"><button class="acc__btn">How do I book an appointment?</button><div class="acc__panel"><div class="acc__panel-in">Use the booking tool above — pick your treatment, date and time, then send the details to us on WhatsApp. You can also tap any "Chat on WhatsApp" button or call us directly.</div></div></div>
+          <div class="acc"><button class="acc__btn">Will the treatment be painful?</button><div class="acc__panel"><div class="acc__panel-in">We focus on gentle, comfortable care and use proper numbing for procedures like fillings, root canals and extractions. Tell us if you're nervous — we'll take extra time to put you at ease.</div></div></div>
+          <div class="acc"><button class="acc__btn">Do you treat children?</button><div class="acc__panel"><div class="acc__panel-in">Absolutely. We're a family clinic and we love helping children build healthy smile habits early, in a friendly, relaxed way.</div></div></div>
+          <div class="acc"><button class="acc__btn">Where are you located?</button><div class="acc__panel"><div class="acc__panel-in">We're based in Enugu. See the map in the Location section above for directions, or message us for landmarks near the clinic.</div></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CTA STRIP ===================== -->
+    <section class="section cta-strip">
+      <div class="container reveal">
+        <h2>Ready for a Healthier Smile?</h2>
+        <p>Book your appointment at Austin Graces Dental Clinic today — your friendly family dentist in Enugu.</p>
+        <div class="cta-strip__btns">
+          <a href="#book" class="btn btn--accent btn--lg">Book Appointment</a>
+          <a class="btn btn--whatsapp btn--lg" data-wa="Hello Austin Graces Dental Clinic, I'd like to book a dental appointment.">Chat on WhatsApp</a>
+          <a data-tel class="btn btn--ghost btn--lg">Call 0908 500 5646</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <span class="footer__brand-badge"><img src="assets/logo.png" alt="Austin Graces Dental Clinic logo" /></span>
+          <p class="footer__tagline">Austin Graces Dental Clinic — excellence in dental care for the whole family, right here in Enugu. Brighter smiles, gentle hands.</p>
+          <div class="footer__socials">
+            <a class="footer__social" data-wa="Hello Austin Graces Dental Clinic, I'd like to book an appointment." aria-label="WhatsApp"><svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M17.5 14.4c-.3-.1-1.7-.9-2-1-.3-.1-.5-.1-.6.1l-.9 1.1c-.2.2-.3.2-.6.1-1.1-.5-2-.9-2.9-2.1-.2-.3 0-.4.1-.6l.4-.5c.1-.2.1-.3 0-.5l-.9-2.1c-.2-.5-.4-.4-.6-.5h-.6c-.2 0-.5.1-.8.4-.8.8-1 1.9-1 2.5 0 1.5 1.1 2.9 1.2 3.1.2.2 2.1 3.2 5.1 4.5 3 1.1 3 .8 3.5.7.6-.1 1.7-.7 2-1.4.2-.7.2-1.3.2-1.4-.1-.1-.3-.2-.6-.4zM12 2a10 10 0 0 0-8.6 15l-1.3 4.7L7 20.4A10 10 0 1 0 12 2Z"/></svg></a>
+            <a class="footer__social" href="https://www.instagram.com/austingracesdentalclinic" target="_blank" rel="noopener" aria-label="Instagram"><svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".6" fill="currentColor"/></svg></a>
+            <a class="footer__social" data-tel aria-label="Call"><svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2 4.2 2 2 0 0 1 4 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7A2 2 0 0 1 22 16.9Z"/></svg></a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h4>Treatments</h4>
+          <ul class="footer__links">
+            <li><a href="#services">Consultation</a></li>
+            <li><a href="#services">Cleaning & Scaling</a></li>
+            <li><a href="#services">Teeth Whitening</a></li>
+            <li><a href="#braces">Braces & Orthodontics</a></li>
+            <li><a href="#services">Implants & Veneers</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Explore</h4>
+          <ul class="footer__links">
+            <li><a href="#book">Book Appointment</a></li>
+            <li><a href="#gallery">Smile Gallery</a></li>
+            <li><a href="#payments">Payment & HMO</a></li>
+            <li><a href="#faq">FAQs</a></li>
+            <li><a href="#location">Location</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Contact</h4>
+          <ul class="footer__links">
+            <li><span style="color:rgba(255,255,255,.62)">Enugu, Nigeria</span></li>
+            <li><a data-tel>0908 500 5646</a></li>
+            <li><a data-wa="Hello Austin Graces Dental Clinic, I'd like to book an appointment.">WhatsApp us</a></li>
+            <li><a href="https://www.instagram.com/austingracesdentalclinic" target="_blank" rel="noopener">@austingracesdentalclinic</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>© <span id="yr">2026</span> Austin Graces Dental Clinic. All rights reserved.</p>
+        <p class="note">This is a demo preview created for Austin Graces Dental Clinic. Photos, prices, address, HMO details and doctor names are placeholders, ready to be replaced with the clinic's final information.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Float -->
+  <a class="wa-float" data-wa="Hello Austin Graces Dental Clinic, I'd like to book a dental appointment." aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 24 24"><path d="M17.5 14.4c-.3-.1-1.7-.9-2-1-.3-.1-.5-.1-.6.1l-.9 1.1c-.2.2-.3.2-.6.1-1.1-.5-2-.9-2.9-2.1-.2-.3 0-.4.1-.6l.4-.5c.1-.2.1-.3 0-.5l-.9-2.1c-.2-.5-.4-.4-.6-.5h-.6c-.2 0-.5.1-.8.4-.8.8-1 1.9-1 2.5 0 1.5 1.1 2.9 1.2 3.1.2.2 2.1 3.2 5.1 4.5 3 1.1 3 .8 3.5.7.6-.1 1.7-.7 2-1.4.2-.7.2-1.3.2-1.4-.1-.1-.3-.2-.6-.4zM12 2a10 10 0 0 0-8.6 15l-1.3 4.7L7 20.4A10 10 0 1 0 12 2Z"/></svg>
+  </a>
+
+  <script src="js/main.js"></script>
+  <script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
+</body>
+</html>
